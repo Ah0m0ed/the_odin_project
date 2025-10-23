@@ -1,0 +1,232 @@
+@font-face {
+    font-family: 'Norse';
+    src: url('fonts/Norse-Bold.woff2') format('woff2'),
+        url('fonts/Norse-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Oswald';
+    src: url('fonts/Oswald-Regular.woff2') format('woff2'),
+        url('fonts/Oswald-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'JosefinSans-ThinItalic';
+    src: url('fonts/JosefinSans-ThinItalic.woff2') format('woff2'),
+        url('fonts/JosefinSans-ThinItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'JosefinSans-Thin';
+    src: url('fonts/JosefinSans-Thin.woff2') format('woff2'),
+        url('fonts/JosefinSans-Thin.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+:root{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    min-height: 100vh;
+}
+
+.sidebar{
+    background-image: url("imgs/background.jpg");
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    min-width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 150px;
+    padding-bottom: 0px;
+}
+
+.logo{
+    background-color: rgb(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    color: white;
+    align-items: center;
+    padding: 8px;
+}
+
+.logo p{
+    font-size: 10rem;
+    font-weight: 900;
+    font-family: 'Norse';
+    padding: 0px;
+    margin: 0px;
+}
+
+.logo img{
+    max-width: 10rem;
+    max-height: 10rem;
+    padding: 0px;
+}
+
+.copyrights{
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 0.3rem;
+}
+
+.copyrights a {
+    font-size: 16px;
+    color: white;
+}
+
+.content{
+    background-color: #777C6D;
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+}
+
+.desc-container{
+    background-color: #777C6D;
+    display: flex;
+    flex-direction: column;
+    padding-left: 32px;
+    gap: 0.5rem;
+    flex: 1;
+    padding-left: 3rem;
+    padding-top: 4rem;
+    gap:1rem;
+}
+
+.desc-container p{
+    margin: 0px;
+    line-height: 4ch;
+}
+
+.desc-title{
+    font-family: 'Oswald';
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.desc{
+    font-family: 'Oswald';
+    font-size: 1.5rem;
+    max-width: 70ch;
+}
+
+.form{
+    background-color: #B6AE9F;
+    flex: 1.5;
+}
+
+.footer{
+    background-color: #777C6D;
+    flex: 1;
+    padding-left: 3rem;
+    padding-top: 2rem;
+}
+
+h2{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Oswald';
+    font-weight: normal;
+    font-size: 32px;
+}
+
+.form{
+    padding-left: 3rem;
+    padding-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    z-index: 1;
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    flex-basis: 40%;
+}
+
+input{
+    border:gray;
+    height: 4ch;
+    border-radius: 10px;
+}
+
+.input label{
+    font-family: 'Oswald';
+}
+
+button{
+    background-color: #B0CE88;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    min-width: 20ch;
+    min-height: 5ch;
+}
+
+.login{
+    color: white;
+    font-size: 18px;
+}
+
+.login a{
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.input input{
+    border: 2px solid #B6AE9F;
+    font-size: 16px;
+    font-family: 'Oswald';
+}
+
+.input input:hover{
+    box-shadow: 5px 10px 15px rgb(0,0,0,0.2);
+}
+
+.input input:focus{
+    border: 2px solid #777C6D;
+    outline: none;
+}
+
+.input input:valid{
+    border-color: #B0CE88;
+}
+
+.input input:invalid{
+    border-color: #B6AE9F;
+}
+

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/CSS">
+    <title>Top-Chef</title>
+</head>
+
+<body>
+    <div class="sidebar">
+        <div class="logo">
+            <img src="imgs/odin-logo.png" alt="logo">
+            <p>
+                ODIN
+            </p>
+        </div>
+
+        <p class="copyrights">
+            Photo by <a href="https://unsplash.com/@miracletwentyone"> Joseph Gonzalez </a> on <a
+                href="https://unsplash.com/"> Unsplash </a>.
+        </p>
+    </div>
+    <div class="content">
+        <div class="desc-container">
+            <p class="desc-title">Welcome to Top-Chef !</p>
+            <p class="desc">
+                More than just recipes - it's where food lovers connect. Share your kitchen triumphs, discover new
+                favorites, and build your personal recipe collection.
+            </p>
+        </div>
+        <div class="form">
+            <h2>Lets Do This ! </h2>
+            <form id="main-form" method="" action="">
+                <div class="input">
+                    <label for="f-name">
+                        FIRST NAME
+                    </label>
+                    <input id="f-name" name="f-name" type="text" required minlength="5">
+                </div>
+                <div class="input">
+                    <label for="l-name">
+                        LAST NAME
+                    </label>
+                    <input id="l-name" name="l-name" type="text" required minlength="5">
+                </div>
+                <div class="input">
+                    <label for="email">
+                        EMAIL
+                    </label>
+                    <input id="email" name="email" type="email" required>
+                </div>
+                <div class="input">
+                    <label for="no">
+                        PHONE NUMBER
+                    </label>
+                    <input id="no" name="no" type="number" required>
+                </div>
+                <div class="input">
+                    <label for="pwd">
+                        PASSWORD
+                    </label>
+                    <input id="pwd" name="pwd" type="password" required>
+                </div>
+                <div class="input">
+                    <label for="pwd-confirm">
+                        CONFIRM PASSWORD
+                    </label>
+                    <input id="pwd-confirm" name="pwd-confirm" type="password" required>
+                </div>
+            </form>
+        </div>
+        <div class="footer">
+            <button form="main-form" type="submit">Create Account</button>
+            <p class="login"> Already have an account ? <a href=""> Login</a></p>
+        </div>
+    </div>
+</body>
+
+</html>
