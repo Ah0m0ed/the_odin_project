@@ -45,6 +45,7 @@ body{
     padding: 0px;
     display: flex;
     min-height: 100vh;
+    max-width: 100vw;
     flex-wrap: wrap;
 }
 
