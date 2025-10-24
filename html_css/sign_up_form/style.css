@@ -45,6 +45,7 @@ body{
     padding: 0px;
     display: flex;
     min-height: 100vh;
+    flex-wrap: wrap;
 }
 
 .sidebar{
@@ -55,7 +56,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding-top: 150px;
+    padding-top: 6rem;
     padding-bottom: 0px;
     flex: 1;
 }
@@ -102,7 +103,8 @@ body{
     background-color: #777C6D;
     display: flex;
     flex-direction: column;
-    flex: 2;
+    flex-grow: 2;
+    flex-shrink: 1;
 }
 
 .desc-container{
@@ -113,7 +115,8 @@ body{
     gap: 0.5rem;
     flex: 1;
     padding-left: 3rem;
-    padding-top: 4rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     gap:1rem;
 }
 
