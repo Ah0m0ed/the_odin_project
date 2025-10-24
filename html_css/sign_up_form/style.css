@@ -57,7 +57,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding-top: 6rem;
+    padding-top: calc(1rem + 4vh);
     padding-bottom: 0px;
     flex: 1;
 }
@@ -92,11 +92,12 @@ body{
     color: white;
     display: flex;
     justify-content: center;
+    font-size: 10px;
     gap: 0.3rem;
 }
 
 .copyrights a {
-    font-size: 1.0rem;
+    font-size: 10px;
     color: white;
 }
 
