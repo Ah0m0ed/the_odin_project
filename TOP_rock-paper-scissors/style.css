@@ -1,0 +1,113 @@
+:root{
+    --generalPadding : 2rem;
+    --generalGap : 3rem;
+}
+
+*{
+    margin:0;
+    padding:0;
+}
+
+p{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+p+p{
+    font-weight: normal;
+    font-size: 32;
+}
+
+.container{
+    display: grid;
+    grid-template-rows: 1fr 2fr 2fr 3fr;
+    height: 100vh;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(143 171 212);
+    padding: var(--generalPadding);
+}
+
+.scores{
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    background-color: rgb(74 112 169);
+    color: rgb(239 236 227);
+    padding : var(--generalPadding);
+}
+
+.playerScore{
+    flex: 1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: var(--generalGap);
+}
+
+.computerScore{
+    flex: 1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: var(--generalGap);
+}
+
+.actions{
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    background-color: rgb(143 171 212);
+    padding : var(--generalPadding);
+}
+
+.playerAction{
+    flex: 1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: var(--generalGap);
+}
+
+.result{
+    flex: 1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: var(--generalGap);
+}
+
+.computerAction{
+    flex :1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: var(--generalGap);
+}
+
+.btns{
+    flex: 4;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(74 112 169);
+    padding : var(--generalPadding);
+}
+
+button{
+    border: none;
+    border-radius: 100%;
+    padding: 4rem;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(25 24 59);
+}
+
+button:hover{
+    color: rgb(25 24 59);
+    background-color: white;
+}
