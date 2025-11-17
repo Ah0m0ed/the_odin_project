@@ -28,7 +28,7 @@ A browser-based implementation of the classic Etch-A-Sketch drawing toy, built w
 - **Responsive Design:** -Works on various screen sizes
 
 # 🚀 Live Demo
-View Live Project (https://ah0m0ed.github.io/etch-a-sketch/)
+View Live Project (https://ah0m0ed.github.io/TOP_etch-a-sketch/)
 
 # 🛠️ Technologies Used
 
@@ -77,3 +77,4 @@ etch-a-sketch\
 - User input validation
 
 - Code organization and separation of concerns
+
