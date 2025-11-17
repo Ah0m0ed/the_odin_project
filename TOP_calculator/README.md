@@ -1,5 +1,5 @@
 ## 🧮 TOP Calculator App
-[!DesignPreview](./designPrev.png)
+![DesignPreview](./designPrev.png)
 # 📝 Project Overview
 
 This is a fully functional, browser-based Basic Calculator application, completed as a core project within The Odin Project's Foundations curriculum.
@@ -37,4 +37,5 @@ The primary objective was to implement complex calculation logic from scratch us
 - **CSS3 :** Styling, responsiveness, and visual design.
 
 - **Vanilla JavaScript :** All core logic, DOM manipulation, and calculation algorithms.
+
 
