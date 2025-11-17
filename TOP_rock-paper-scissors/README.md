@@ -2,7 +2,7 @@
 A simple implementation of the classic Rock Paper Scissors game, built as a console application in JavaScript. This project was completed as part of The Odin Project's Foundations curriculum to practice core JavaScript concepts.
 
 # Live Demo
-https://ah0m0ed.github.io/r_p_s/
+https://ah0m0ed.github.io/TOP_rock-paper-scissors/
 
 ## 🎯 Overview
 This is a browser-based game that runs entirely in the browser's console. It's a battle of wits against the computer! The user selects their move by typing it into a prompt, the computer randomly selects its move, and the result of the round is displayed in the console.
@@ -55,6 +55,7 @@ This project was a fantastic exercise in applying basic JavaScript in a practica
 - **Function Scope:** Understanding how to pass data between functions using parameters and return values.
 
 - **Debugging:** Effectively using console.log() to trace the program's execution and identify issues.
+
 
 
 
